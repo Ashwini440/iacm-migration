@@ -22,7 +22,8 @@ terraform {
       version = "~> 2.4.0"
     }
     tfe = {
-        version = "~> 0.51.1"
+      source  = "hashicorp/tfe"  # ✅ Add this line
+      version = "~> 0.51.1"
     }
   }
 }
