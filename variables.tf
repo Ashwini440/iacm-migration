@@ -165,3 +165,13 @@ variable workspaces { # Required when the migration source is local_migration
   }))
   default = []
 }
+
+variable "source_region" {
+  description = "AWS region for S3 bucket"
+  type        = string
+}
+
+variable "harness_workspace" {
+  description = "Harness IaCM workspace name"
+  type        = string
+}
