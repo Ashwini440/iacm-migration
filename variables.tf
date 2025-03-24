@@ -193,4 +193,8 @@ variable "source_bucket_name" {
   description = "S3 bucket name where the state is stored"
   type        = string
 }
+variable "source_backend_type" {
+  description = "The type of backend used (e.g., S3, GCS, Azure, etc.)"
+  type        = string
+}
 
