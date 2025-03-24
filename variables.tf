@@ -175,3 +175,13 @@ variable "harness_workspace" {
   description = "Harness IaCM workspace name"
   type        = string
 }
+variable "harness_api_key" {
+  description = "Harness API Key for authentication"
+  type        = string
+}
+
+variable "destination_workspace" {
+  description = "Target Harness IaCM workspace for migration"
+  type        = string
+}
+
