@@ -184,4 +184,13 @@ variable "destination_workspace" {
   description = "Target Harness IaCM workspace for migration"
   type        = string
 }
+variable "source_key" {
+  description = "S3 object key for the state file"
+  type        = string
+}
+
+variable "source_bucket_name" {
+  description = "S3 bucket name where the state is stored"
+  type        = string
+}
 
